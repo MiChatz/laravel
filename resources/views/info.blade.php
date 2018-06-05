@@ -4,6 +4,6 @@
     <title>Laravel</title>
 </head>
 <body>
-	<h2>About Us</h2>
+    <h1>Info</h1>
 </body>
 </html>
