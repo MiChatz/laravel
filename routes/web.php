@@ -28,5 +28,6 @@ Route::get('portfolio', function ()
 
 Route::get('contact', function ()
 {
-    return view('contact');
+	$contact = DB::table('contact')->get();
+    return view('contact', compact('contact'));
 });
