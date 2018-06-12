@@ -44,7 +44,7 @@
             </li>
           </ul>
         </div>
-      </div>f
+      </div>
     </nav>
 
     @yield('intro')
