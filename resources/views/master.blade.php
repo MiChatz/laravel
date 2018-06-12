@@ -44,7 +44,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div>f
     </nav>
 
     @yield('intro')
@@ -54,7 +54,7 @@
     <!-- Footer -->
     <footer>
       <div class="container text-center">
-        <p>Copyright &copy; Your Website 2018</p>
+        <p>Copyright &copy; C. Chairopoulos 2018</p>
       </div>
     </footer>
 
