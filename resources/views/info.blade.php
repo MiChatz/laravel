@@ -33,8 +33,12 @@
     <section id="about" class="content-section text-center">
       <div class="container">
         <div class="row">
+
+          <div style="display: block;margin-left: auto;margin-right: auto; opacity: 0.6;">
+                <img src="{{ URL::to('/img/me.png') }}" height="50%" alt=""/>
+          </div>
           <div class="col-lg-8 mx-auto">
-            <h2>Christos Chairopoulos</h2>
+            <h2>Christos A. Chairopoulos</h2>
             <p>I have had experience designing
                 for numerous companies, creating a wide variety of designs
                 to suit the needs of the individual.
@@ -46,12 +50,6 @@
               </p>
 
             </div>
-
-
-              <div style="display: block;margin-left: auto;margin-right: auto; opacity: 0.6;">
-                <img src="{{ URL::to('/img/info.jpg') }}" height="70%" alt=""/>
-              </div>
-
           </div>
         </div>
       </div>
