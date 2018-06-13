@@ -14,9 +14,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Grayscale</h1>
-              <p class="intro-text">A free, responsive, one page Bootstrap theme.
-                <br>Created by Start Bootstrap.</p>
+              <h1 class="brand-heading">About Me</h1>
+              <p class="intro-text">Here you can find a short presentations of my background.</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
@@ -35,14 +34,24 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>About Info</h2>
-            <p>Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-              <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-            <p>This theme features stock photos by
-              <a href="http://gratisography.com/">Gratisography</a>
-              along with a custom Google Maps skin courtesy of
-              <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-            <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with SASS and LESS files for easy customization!</p>
+            <h2>Christos Chairopoulos</h2>
+            <p>I have had experience designing
+                for numerous companies, creating a wide variety of designs
+                to suit the needs of the individual.
+                I can <a style="color: #42dca3"> produce </a>and edit your<a style="color: #42dca3"> video, animation </a>or<a style="color: #42dca3"> graphics / sound </a>design projects.
+                I am skilled on <a style="color: #42dca3"> Illustrator, Photoshop </a>as well as <a style="color: #42dca3"> After Effects </a>and<a style="color: #42dca3"> Premiere. </a>
+                I also use<a style="color: #42dca3"> ZBrush </a>and<a style="color: #42dca3"> 3DsMax </a>for various projects.
+                I make sure I design everything in the shortest time possible
+                while keeping a high standard of work.
+              </p>
+
+            </div>
+
+
+              <div style="display: block;margin-left: auto;margin-right: auto; opacity: 0.6;">
+                <img src="{{ URL::to('/img/info.jpg') }}" height="70%" alt=""/>
+              </div>
+
           </div>
         </div>
       </div>
