@@ -12,5 +12,22 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('info');
+});
+
+Route::get('info', function () {
+    return view('info');
+});
+
+
+
+Route::get('portfolio', function ()
+{
+    return view('portfolio');
+});
+
+Route::get('contact', function ()
+{
+	$contact = DB::table('contact')->get();
+    return view('contact', compact('contact'));
 });
