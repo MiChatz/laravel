@@ -23,7 +23,8 @@ Route::get('info', function () {
 });
 
 Route::get('portfolio', function () {
-	return view('portfolio');
+	$portfolio = DB::table('portfolio')->get();
+	return view('portfolio', compact('portfolio'));
 });
 
 Route::get('contact', function () {
