@@ -14,8 +14,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">About Me</h1>
-              <p class="intro-text">Here you can find a short presentations of my background.</p>
+              <h1 class="brand-heading">{{$info[0]->body}}</h1>
+              <p class="intro-text">{{$info[1]->body}}</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
@@ -38,15 +38,9 @@
                 <img src="{{ URL::to('/img/me.png') }}" height="50%" alt=""/>
           </div>
           <div class="col-lg-8 mx-auto">
-            <h2>Christos A. Chairopoulos</h2>
-            <p>I have had experience designing
-                for numerous companies, creating a wide variety of designs
-                to suit the needs of the individual.
-                I can <a style="color: #42dca3"> produce </a>and edit your<a style="color: #42dca3"> video, animation </a>or<a style="color: #42dca3"> graphics / sound </a>design projects.
-                I am skilled on <a style="color: #42dca3"> Illustrator, Photoshop </a>as well as <a style="color: #42dca3"> After Effects </a>and<a style="color: #42dca3"> Premiere. </a>
-                I also use<a style="color: #42dca3"> ZBrush </a>and<a style="color: #42dca3"> 3DsMax </a>for various projects.
-                I make sure I design everything in the shortest time possible
-                while keeping a high standard of work.
+            <h2>{{$info[2]->body}}</h2>
+            <p>{{$info[3]->body}} <a style="color: #42dca3"> {{$info[4]->body}} </a>{{$info[5]->body}}<a style="color: #42dca3"> {{$info[6]->body}} </a>or<a style="color: #42dca3"> {{$info[7]->body}} </a>{{$info[8]->body}} <a style="color: #42dca3"> {{$info[9]->body}} </a>{{$info[10]->body}} <a style="color: #42dca3"> {{$info[11]->body}} </a>{{$info[12]->body}}<a style="color: #42dca3"> {{$info[13]->body}} </a>
+                {{$info[14]->body}}<a style="color: #42dca3"> {{$info[15]->body}} </a>{{$info[16]->body}}<a style="color: #42dca3"> {{$info[17]->body}} </a>{{$info[18]->body}}
               </p>
 
             </div>
