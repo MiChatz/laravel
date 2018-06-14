@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder {
 
 			InfoTableSeeder::class,
 			PortfolioTableSeeder::class,
+			ContactTableSeeder::class,
 
 		]);
 		// $this->call(UsersTableSeeder::class);
