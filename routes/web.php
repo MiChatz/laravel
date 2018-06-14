@@ -9,25 +9,25 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 Route::get('/', function () {
-    return view('info');
+
+	$info = DB::table('info')->get();
+	return view('info', compact('info'));
 });
 
 Route::get('info', function () {
-    return view('info');
+	$info = DB::table('info')->get();
+	return view('info', compact('info'));
 });
 
-
-
-Route::get('portfolio', function ()
-{
-    return view('portfolio');
+Route::get('portfolio', function () {
+	$portfolio = DB::table('portfolio')->get();
+	return view('portfolio', compact('portfolio'));
 });
 
-Route::get('contact', function ()
-{
+Route::get('contact', function () {
 	$contact = DB::table('contact')->get();
-    return view('contact', compact('contact'));
+	return view('contact', compact('contact'));
 });
