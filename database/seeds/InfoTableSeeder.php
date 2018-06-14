@@ -198,7 +198,7 @@ class InfoTableSeeder extends Seeder {
 			'id' => 19,
 			'title' => 'main16',
 			'body' => 'for various projects.
-                I make sure I design everything in the shortest time possible
+                I make sure I design everything isn the shortest time possible
                 while keeping a high standard of work.',
 			'created_at' => now(),
 			'updated_at' => now(),
