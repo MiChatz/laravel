@@ -60,10 +60,14 @@
                 <a href=" https://www.instagram.com/bandemonic_official/" class="fa fa-instagram">&nbsp&nbsp Follow &nbsp&nbsp</a>
               </div>
 
+              {{$contact[0]->body}}
 
-<!--             @foreach ($contact as $contact)
+
+            @foreach ($contact as $contact)
               <li> {{$contact->body}} </li>
-            @endforeach -->
+            @endforeach
+
+
 
     </div>
         </div>
